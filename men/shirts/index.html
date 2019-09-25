@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script type='text/javascript'>
+    function onHover(){$("#menuImg").attr('src', 'shirt-designs/world-bleeds/back.PNG');}
+    function offHover(){$("#menuImg").attr('src', 'shirt-designs/world-bleeds/front.PNG');}
+    </script>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <title>shirt main</title>
   </head>
@@ -12,7 +16,14 @@
         <tr>
           <td>world bleeds</td>
           <td>price 29.99 not incl tax</td>
-          <td><a id="worldBleeding"><img class="image_on" src="shirt-designs\world-bleeds\back.PNG" alt="logo" /><img class="image_off" src="shirt-designs\world-bleeds\front.PNG" alt="logo" /></a></td>
+          <td>
+            <div id="worldBleeding" >
+              <a href="#" id="worldBleeding">
+                <img id="menuImg" src="shirt-designs\world-bleeds\front.PNG" alt="logo" onmouseover="onHover();"
+                  onmouseout="offHover();" />
+              </a>
+            </div>
+          </td>
         </tr>
         <tr>
           <td>lofi japan</td>
