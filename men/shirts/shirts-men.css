@@ -1,0 +1,18 @@
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  line-height: 30px;
+}
+#img {
+  background-image: url("designs/world-bleeds/back.PNG");
+  height: 650px;
+  width: 615px;
+}
+#img:hover {
+  background-image: url("designs/world-bleeds/front.PNG");
+  height: 650px;
+  width: 615px;
+}

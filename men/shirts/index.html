@@ -1,31 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script type='text/javascript'>
-    //These images paths need to be updated to their current address, keep in mind that they use / not \ in the path, ty loves
-    function onHover(){$("#menuImg").attr('src', 'shirt-designs/world-bleeds/back.PNG');}
-    function offHover(){$("#menuImg").attr('src', 'shirt-designs/world-bleeds/front.PNG');}
-    </script>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <title>shirt main</title>
+    <link href="shirts-men.css" rel="stylesheet" type="text/css">
   </head>
   <body style=" background-color:#a4d167">
-    <h1>shirts (men)</h1>
+    <div class="header">
+      <h1>shirts (men)</h1>
+    </div>
+    <br>
+    <br>
+    <br>
     <p>current drop</p>
     <table style="width: 1354px; height: 373px;" border="1">
       <tbody>
         <tr>
           <td>world bleeds</td>
           <td>price 29.99 not incl tax</td>
-          <td>
-            <div id="worldBleeding" >
-              <a href="#" id="worldBleeding">
-                <!-->UPDATE IMAGE ADDRESS!!!!!! </!-->
-                <img id="menuImg" src="shirt-designs\world-bleeds\front.PNG" alt="logo" onmouseover="onHover();"
-                  onmouseout="offHover();" />
-              </a>
-            </div>
-          </td>
+          <td><div id="img"></div></td>
         </tr>
         <tr>
           <td>lofi japan</td>
