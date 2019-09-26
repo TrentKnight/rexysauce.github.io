@@ -1,20 +1,15 @@
 .header {
+  background-color:#a4d167;
   position: fixed;
   left: 0;
   top: 0;
+  height: 115px;
   width: 100%;
-}
-.logo {
-  left: 0;
-  top: 0;
-  height: 250px;
-  width: 250px;
 }
 .logo3 {
   position: absolute;
-  left: 270px;
-  top: 75px;
-  height: 100px;
+  top: 5px;
+  height: 105px;
   width: 400px;
 }
 .header-text {
@@ -25,13 +20,18 @@
   padding-left: 25px;
 }
 .middle {
-  position: fixed;
-  top: 300px;
+  background-image: url(background.png);
+  background-position: center;
+  top: 50%;
+  width: 100%;
+  height: 945px;
 }
 .footer {
+  background-color:#a4d167;
   position: fixed;
   left: 0;
   bottom: 0;
+  height: 20px;
   width: 100%;
 }
 .footer-text {
