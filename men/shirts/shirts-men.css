@@ -10,11 +10,11 @@
   position: fixed;
   top: 300px;
 }
-#img {
+#img1 {
   background-image: url("designs/world-bleeds/front.PNG");
   height: 650px;
   width: 650px;
 }
-#img:hover {
+#img1:hover {
   background-image: url("designs/world-bleeds/back.PNG");
 }
