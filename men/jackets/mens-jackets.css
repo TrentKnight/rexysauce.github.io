@@ -1,0 +1,31 @@
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  line-height: 30px;
+}
+.middle {
+  position: fixed;
+  top: 300px;
+}
+
+#pn-img {
+  background-image: url("designs/parental-nightmare/front.PNG");
+  height: 650px;
+  width: 650px;
+}
+#pn-img:hover {
+  background-image: url("designs/parental-nightmare/back.PNG");
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.footer-text {
+  color: black;
+}
