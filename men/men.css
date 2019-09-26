@@ -1,0 +1,27 @@
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+.header-text {
+  position: fixed;
+  top: 100px;
+  left: 260px;
+  font-size: 50px;
+  padding-left: 25px;
+}
+.middle {
+  position: fixed;
+  top: 300px;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.footer-text {
+  color: black;
+}
